@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────
+# Keil MDK / uVision 编译产物（不进版本库）
+# ─────────────────────────────────────────────
+*.o
+*.crf
+*.d
+*.axf
+*.htm
+*.lnp
+*.map
+*.lst
+*.dep
+*.iex
+*.A
+*.build_log.htm
+*.uvguix.*
+*.bak
+*.ddk
+*.edk
+*.elf
+JLinkLog.txt
+Objects/
+Listings/
+
+# ─────────────────────────────────────────────
+# CMSIS 里对本项目（STM32F103）无用的部分
+#   预编译库 / DSP / NN / 示例 / 文档
+# ─────────────────────────────────────────────
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/docs/
+Drivers/CMSIS/Documentation/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/OpenMP/
+
+# ─────────────────────────────────────────────
+# 杂项
+# ─────────────────────────────────────────────
+*.zip
+Thumbs.db
+desktop.ini
